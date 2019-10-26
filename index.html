@@ -3,10 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <script src="script.js"></script> -->
   </head>
   <body>
-    <p>Page content.</p>
+    <h1>Create Safe Distance Tracker</h1>
+    <form action="safedistance.html" method="get">
+      <p>Target date (e.g. 2020-01-11):<br/><input type="text" name="date"/></p>
+      <p>Target weekly KM (e.g. 50):<br/><input type="text" name="km"/></p>
+      <p>Weekly KM growth rate (e.g. 1.1)<br/><input type="text" name="rate"/></p>
+      <p><input type="submit" value="Submit"/></p>
+    </form>
   </body>
 </html>
